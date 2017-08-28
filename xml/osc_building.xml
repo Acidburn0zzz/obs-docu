@@ -36,13 +36,6 @@
   <remark>TBD</remark>
  </sect1>
 
- <sect1 xml:id="sec.obs.building.livebuild">
-  <title>As Livebuild Images</title>
-  <remark>toms 2017-08-18: see https://www.debian.org/devel/debian-live/</remark>
-  <para/>
-  <remark>TBD</remark>
- </sect1>
-
  <sect1 xml:id="sec.obs.building.kiwi">
   <title>From Kiwi Files (&kiwi;)</title>
    <!--
@@ -63,6 +56,13 @@
       the package list
     * 
    -->
+  <para/>
+  <remark>TBD</remark>
+ </sect1>
+
+ <sect1 xml:id="sec.obs.building.livebuild">
+  <title>As Livebuild Images</title>
+  <remark>toms 2017-08-18: see https://www.debian.org/devel/debian-live/</remark>
   <para/>
   <remark>TBD</remark>
  </sect1>
