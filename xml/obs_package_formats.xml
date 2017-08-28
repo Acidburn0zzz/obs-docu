@@ -9,7 +9,6 @@
  xmlns:xlink="http://www.w3.org/1999/xlink" >
  <title>Supported Build Recipes and Package Formats</title>
  <info/>
- <remark>toms 2017-08-18: list advantages/disadvantages/benefits for each format</remark>
  <remark>toms 2017-08-18: comparison of these formats?</remark>
 
  <sect1>
@@ -80,7 +79,7 @@
   </para>
   <variablelist>
    <varlistentry>
-    <term><filename class="extension">.spec</filename></term>
+    <term><filename><replaceable>PACKAGE</replaceable>.spec</filename></term>
     <listitem>
      <para>
       the <firstterm>spec file</firstterm> for each package containing
@@ -94,7 +93,7 @@
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><filename class="extension">.changes</filename></term>
+    <term><filename><replaceable>PACKAGE</replaceable>.changes</filename></term>
     <listitem>
      <para>the file which contains the changelog.</para>
     </listitem>
@@ -161,13 +160,6 @@
   </variablelist>
  </sect1>
 
- <sect1>
-  <title>Snap</title>
-  <para/>
-  <remark>TBD</remark>
-  <remark>toms 2017-08-18: see obs_build_containers.xml</remark>
- </sect1>
-
 <!--
  <sect1>
   <title>Livebuild</title>
@@ -227,7 +219,7 @@
   </para>
  </sect1>
 
- <sect1>
+ <sect1 condition="tbd">
   <title>&obs.si;</title>
   <para>
    <remark>toms 2017-08-18: FIXME This should be explained better</remark>
@@ -294,14 +286,6 @@ systemctl enable sshd</screen>
   </para>
   <para> For building an image in &obs.ai; you need:</para>
   <variablelist>
-   <varlistentry>
-    <term><filename>PACKAGE</filename></term>
-    <listitem>
-     <para>
-      The original, untouched source archive.
-     </para>
-    </listitem>
-   </varlistentry>
    <varlistentry>
     <term><filename>appimage.yml</filename></term>
     <listitem>
